@@ -5,7 +5,7 @@ public class Main {
 
         System.out.println("Main");
         Operaciones oper = new Operaciones();
-        long resultado = oper.sumar("", true);
+        long resultado = oper.sumar("", "");
         System.out.println(resultado);
     }
 }
